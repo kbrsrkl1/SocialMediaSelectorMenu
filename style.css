@@ -28,6 +28,8 @@ body{
 .menu p{
     margin: 0 10px;
     font-size: 17px;
+    display: flex;
+    align-items: center;
 }
 
 #icon{
@@ -53,6 +55,7 @@ body{
 
 .rotate .fa-solid{
     transform: rotate(180deg);
+    transition: all 0.5s linear;
 }
 
 
@@ -68,5 +71,5 @@ body{
 }
 
 .hide{
-    visibility: hidden;
+    visibility:hidden;
 }
